@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="accueil">
+            <div class="accueil__logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="accueil__hamb">
+                <img src="img/icone.png" alt="">
+            </div>
+            
+            <div class="accueil__hidden">
+                <span class="accueil__hidden-close">&times;</span>
+                <ul>
+                    <li><a href="#1">Acceuil</a></li>
+                    <li><a href="#2">Tattoos</a></li>
+                    <li><a href="#3">Piercing</a></li>
+                    <li><a href="#5">Contact</a></li>
+                </ul>
+            </div>
+            
+            <ul class="accueil__menu">
+                <li><a href="#1">Acceuil</a></li>
+                <li><a href="#2">Tattoos</a></li>
+                <li><a href="#3">Piercing</a></li>
+                <li><a href="#4">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="page"></div>
+    </header>
+    <main>
+        <div class="tattoo">
+            <h1>Tattoo</h1>
+            <div class="tattoo__logo1">
+                <img src="img/banniere.png" alt="">
+            </div>
+            <p>« Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor,
+                dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula
+                massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est
+                eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae,
+                consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras
+                vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed
+                dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante
+                non diam sodales hendrerit.»
+            </p>
+            <div class="tattoo__vitrine">
+                <img src="img/proposition1.jpg" alt="">
+                <img src="img/proposition2.jpg" alt="">
+                <img src="img/proposition3.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="piercing">
+            <h1>piercing</h1>
+            <div class="piercing__bulle">
+                <img src="img/cercle1.png" alt="">
+                <img class="piercing__bulle-little-one" src="img/cercle3.png" alt="">
+                <img class="piercing__bulle-little-two" src="img/cercle4.png" alt="">
+                <img src="img/cercle2.png" alt="">
+            </div>
+            <p>« Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor,
+                dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula
+                massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est
+                eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae,
+                consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras
+                vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed
+                dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante
+                non diam sodales hendrerit.»
+            </p>
+        </div>
+        <div class="contact">
+            <h1>Contact</h1>
+            <p>0607080910</p>
+        </div>
+
+        <form method="POST" class="formulaire">
+            <fieldset>
+                <input id="name" name="name" type="text" autocomplete="off" required />
+                <label for="name">Nom</label>
+            </fieldset>
+            <fieldset>
+                <input id="mail" name="mail" type="email" autocomplete="off" required />
+                <label for="mail">Email</label>
+            </fieldset>
+            <fieldset>
+                <input id="numéro" name="numéro" type="text" autocomplete="off" required />
+                <label for="numéro">Numéro</label>
+            </fieldset>
+            <fieldset>
+                <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                <label for="text">Message</label>
+            </fieldset>
+            <fieldset>
+                <input id="envoyer" name="submit" type="submit" value="Envoyer le formulaire">
+            </fieldset>
+        </form>
+        <footer>
+            <p>© 2021 Gandalf</p>
+        </footer>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
